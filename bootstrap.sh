@@ -22,7 +22,7 @@ ENABLE_ACTIONS_BUILD=yes
 
 # STEP 2. Uncomment the line below.
 
-#READY=yes
+READY=yes
 
 # STEP 3. Run: ./bootstrap.sh
 
