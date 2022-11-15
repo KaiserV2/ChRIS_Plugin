@@ -4,10 +4,10 @@
 FROM docker.io/python:3.10.8-slim-bullseye
 
 LABEL org.opencontainers.image.authors="FNNDSC <dev@babyMRI.org>" \
-      org.opencontainers.image.title="ChRIS Plugin Title" \
-      org.opencontainers.image.description="A ChRIS plugin that..."
+      org.opencontainers.image.title="My ChRIS Plugin" \
+      org.opencontainers.image.description="A ChRIS plugin to do something awesome"
 
-WORKDIR /usr/local/src/app
+WORKDIR /usr/local/src/ChRIS_Plugin
 
 COPY requirements.txt .
 RUN pip install -r requirements.txt
